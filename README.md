@@ -7,7 +7,6 @@
 
 [Motivation](#motivation) · [Method](#method) · [Experiments](#experiments) · [Quick Start](#quick-start)
 
-[![CPU tests](https://github.com/jinweiAi/MIRA/actions/workflows/tests.yml/badge.svg)](https://github.com/jinweiAi/MIRA/actions/workflows/tests.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 </div>
@@ -245,8 +244,10 @@ precision and evaluation runs.
 The supported environment is **Python 3.10, PyTorch 2.6.0, Transformers 4.51.3,
 and PEFT 0.15.2**.
 
+Replace `REPOSITORY_URL` with the URL of the repository containing this README.
+
 ```bash
-git clone https://github.com/jinweiAi/MIRA.git
+git clone REPOSITORY_URL MIRA
 cd MIRA
 python -m venv .venv
 source .venv/bin/activate

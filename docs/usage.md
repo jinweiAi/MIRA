@@ -8,8 +8,10 @@ The integration targets **Python 3.10, PyTorch 2.6.0, Transformers 4.51.3,
 PEFT 0.15.2**, and Qwen2.5-VL-7B-Instruct. It uses eager attention and supports
 one unpadded example per forward pass, with gradient accumulation for training.
 
+Replace `REPOSITORY_URL` with the URL of the repository containing this README.
+
 ```bash
-git clone https://github.com/jinweiAi/MIRA.git
+git clone REPOSITORY_URL MIRA
 cd MIRA
 python -m venv .venv
 source .venv/bin/activate
