@@ -22,3 +22,8 @@ checkpoints/
 *.npz
 *.pdf
 .DS_Store
+
+# Keep the explicitly selected manuscript figures used by README.
+!assets/
+!assets/figures/
+!assets/figures/*.pdf
